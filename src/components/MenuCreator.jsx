@@ -7,6 +7,7 @@ function MenuCreator({ title, content, type, price, blockNumber }) {
     return (
         <>
             <ul>
+
                 <li className={`Menu${blockNumber} menuCard ${type}`}>
                     <h3>{type}</h3>
                     < h2 > {title}</h2 >
