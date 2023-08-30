@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+
+}
+
+ul {
+    margin: .4rem;
+    list-style: none;
+
+    h2 {
+        font-size: 17px;
+        text-decoration: underline;
+    }
+
+    p {
+        font-size: 12px;
+        width: 80%;
+    }
+
+    .priceP {
+        color: white;
+
+    }
+
+    .starter {
+        color: rgb(0, 157, 255);
+    }
+
+    .pasta {
+        color: orange;
+    }
+}

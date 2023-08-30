@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin: 0.4rem;
+  list-style: none;
+}
+ul h2 {
+  font-size: 17px;
+  text-decoration: underline;
+}
+ul p {
+  font-size: 12px;
+  width: 80%;
+}
+ul .priceP {
+  color: white;
+}
+ul .starter {
+  color: rgb(0, 157, 255);
+}
+ul .pasta {
+  color: orange;
+}/*# sourceMappingURL=MenuStyles.css.map */
