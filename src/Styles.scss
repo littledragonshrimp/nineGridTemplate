@@ -38,7 +38,7 @@
 .main-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
 
@@ -73,12 +73,12 @@
 }
 
 a:hover,
-img {
+img:hover {
     color: lightblue;
     scale: 1.05;
     transition: .3s;
     z-index: 10;
-    border-radius: .4rem;
+    border-radius: .3rem;
 }
 
 
@@ -135,7 +135,7 @@ img {
     .main-grid {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
         grid-column-gap: 0;
         grid-row-gap: 0;
         transition: .5s;

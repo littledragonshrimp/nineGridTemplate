@@ -16,6 +16,8 @@ import reactLogo from "../assets/react.svg"
 import Noodle from "../assets/images/noodle.jpg"
 import Inside from "../assets/images/inside.jpg"
 import Service from "../assets/images/service.jpg"
+import Menu from '../pages/Menu'
+import Drinks from '../pages/Drinks'
 
 
 
