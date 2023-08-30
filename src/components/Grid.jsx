@@ -32,7 +32,7 @@ function Grid() {
             blockNumber: 1
         },
         {
-            title: "About",
+            title: "Private Events",
             link: "/About",
             imgSrc: Inside
         },

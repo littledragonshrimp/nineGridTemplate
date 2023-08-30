@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+
+.private-event-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 80%;
+    border-radius: .3rem;
+    padding: .5rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    border: 2px solid orange;
+
+    h1 {
+        color: plum;
+        margin-bottom: 2rem;
+    }
+}
+
+.book-event-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    border: 2px solid orange;
+    border-radius: .3rem;
+    width: 80%;
+    margin: auto;
+}
+
+h2 {
+    margin: 1rem 0 1rem 3rem;
+    text-align: start;
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    input {
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    label {
+        margin-left: -.5rem;
+    }
+
+
+}
+
+.contact-info {
+    flex-direction: column;
+
+    input {
+        margin: .2rem;
+        width: 60%;
+    }
+}
+
+button {
+    padding: 1.5rem 4rem;
+    margin: 1rem auto 2rem auto;
+    margin-bottom: 2rem;
+    max-width: 70%;
+    border-radius: .5rem;
+    border: none;
+}
+
+button:hover,
+button:active {
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    transition: .5s;
+    scale: 1.1;
+    background-color: orange;
+}

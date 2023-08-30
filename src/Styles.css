@@ -62,7 +62,7 @@
   text-align: center;
 }
 
-a:hover,
+.box:hover,
 img:hover {
   color: lightblue;
   scale: 1.05;
@@ -92,6 +92,10 @@ img:hover {
 .Card1 h1 {
   margin-top: 4rem;
   text-align: center;
+}
+
+.Card1:hover {
+  scale: 1.05;
 }
 
 @media screen and (max-width: 800px) {

@@ -72,7 +72,7 @@
     }
 }
 
-a:hover,
+.box:hover,
 img:hover {
     color: lightblue;
     scale: 1.05;
@@ -109,6 +109,17 @@ img:hover {
         text-align: center;
     }
 }
+
+.Card1:hover {
+    scale: 1.05;
+}
+
+
+//About.jsx
+.private-event-container {
+    margin: 1rem 1rem 0 1rem;
+}
+
 
 //for Mobile
 @media screen and (max-width: 800px) {
