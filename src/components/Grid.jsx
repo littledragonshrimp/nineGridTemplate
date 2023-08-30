@@ -46,7 +46,7 @@ function Grid() {
         },
         {
             title: "Location",
-            link: "https://google.com",
+            link: "https://www.google.com/maps/dir//Sandwich+Hag+%26+chimlanh+Coffee+Shop,+1902+Botham+Jean+Blvd,+Dallas,+TX+75215/@32.7656365,-96.7906244,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x864e98fddf6f5cfb:0x6d65b6da5e3a063b!2m2!1d-96.7906244!2d32.7656365!3e0?entry=ttu",
             imgSrc: Outside
         },
         {

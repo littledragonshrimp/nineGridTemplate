@@ -4,29 +4,23 @@ import viteLogo from '/vite.svg'
 import './Styles.scss'
 import Navbar from './components/Navbar'
 import Grid from './components/Grid'
-// import { Route, Routes } from "react-router-dom"
-// import { Menu } from "./pages/Menu"
+import { BrowserRouter, Route, Routes } from "react-router-dom"
+import Menu from "./pages/Menu"
+import Footer from './components/Footer'
 
 function App() {
   return (
 
 
     <>
+
       <Navbar />
       <Grid />
+      <Footer />
+
     </>
   )
 }
 
 export default App
 
-{/* <Routes>
-        <Route
-          path="/"
-          element={<h1>hi</h1>}
-        />,
-        <Route
-          path="/menu"
-          element={<h2>hi</h2>}
-        />
-      </Routes> */}

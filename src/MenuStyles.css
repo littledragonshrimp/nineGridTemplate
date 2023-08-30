@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+  list-style: none;
+}
+ul li {
+  margin-top: 1rem;
+  margin-bottom: -0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+ul h2 {
+  font-size: 17px;
+  text-decoration: underline;
+}
+ul p {
+  font-size: 12px;
+  width: 70%;
+}
+ul .priceP {
+  color: white;
+  margin-left: 1rem;
+}
+ul .starter {
+  color: rgb(0, 157, 255);
+}
+ul .pasta {
+  color: orange;
+}
+ul .content-and-price-container {
+  display: flex;
+  flex-direction: row;
+}
+ul .cocktail {
+  color: pink;
+}
+ul .wine {
+  color: maroon;
+}/*# sourceMappingURL=MenuStyles.css.map */

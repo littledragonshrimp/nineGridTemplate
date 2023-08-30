@@ -37,7 +37,6 @@
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  background-color: orange;
 }
 .main-grid a {
   color: white;
@@ -45,7 +44,7 @@
 }
 
 .box {
-  background-color: red;
+  background-color: darkslategrey;
   min-height: 31vh;
   position: relative;
   border: 1px solid black;
@@ -63,12 +62,13 @@
   text-align: center;
 }
 
-a:hover {
+a:hover,
+img {
   color: lightblue;
   scale: 1.05;
-  transition: 0.5s;
-  border-radius: 0.5rem;
+  transition: 0.3s;
   z-index: 10;
+  border-radius: 0.4rem;
 }
 
 .Card1 {
@@ -79,9 +79,12 @@ a:hover {
   flex-direction: column;
 }
 .Card1 img {
+  background-size: cover;
+  background-clip: content-box;
+  -o-object-fit: contain;
+     object-fit: contain;
   width: 80%;
   height: 80%;
-  max-height: 10rem;
   position: relative;
   top: 10%;
   right: -10%;
