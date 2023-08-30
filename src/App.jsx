@@ -6,6 +6,7 @@ import Navbar from './components/Navbar'
 import Grid from './components/Grid'
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 import Menu from "./pages/Menu"
+import Footer from './components/Footer'
 
 function App() {
   return (
@@ -15,17 +16,8 @@ function App() {
 
       <Navbar />
       <Grid />
+      <Footer />
 
-      <Routes>
-        <Route
-          path="/"
-          element={<h1>hi</h1>}
-        />,
-        <Route
-          path="{menu}"
-          element={<h2>hi</h2>}
-        />
-      </Routes>
     </>
   )
 }

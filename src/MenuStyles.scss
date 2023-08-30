@@ -4,8 +4,16 @@
 }
 
 ul {
-    margin: .4rem;
+    margin-left: .4rem;
+    margin-right: .4rem;
     list-style: none;
+
+    li {
+        margin-top: 1rem;
+        margin-bottom: -.5rem;
+        display: flex;
+        flex-direction: column;
+    }
 
     h2 {
         font-size: 17px;
@@ -14,11 +22,12 @@ ul {
 
     p {
         font-size: 12px;
-        width: 80%;
+        width: 70%;
     }
 
     .priceP {
         color: white;
+        margin-left: 1rem;
 
     }
 
@@ -28,5 +37,18 @@ ul {
 
     .pasta {
         color: orange;
+    }
+
+    .content-and-price-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .cocktail {
+        color: pink;
+    }
+
+    .wine {
+        color: maroon;
     }
 }

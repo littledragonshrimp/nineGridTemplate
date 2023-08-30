@@ -72,12 +72,13 @@
     }
 }
 
-a:hover {
+a:hover,
+img {
     color: lightblue;
     scale: 1.05;
-    transition: .5s;
+    transition: .3s;
     z-index: 10;
-    border-radius: 25px;
+    border-radius: .4rem;
 }
 
 
